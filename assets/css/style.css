@@ -6,8 +6,12 @@
 
     /* Header navbar css */
 
+    .appHeader .navbar-nav .active>.nav-link, .appHeader .navbar-nav .nav-link.active, .appHeader .navbar-nav .nav-link.show, .appHeader .navbar-nav .show>.nav-link {
+        color: orange!important;
+    }
+
     .appHeader .head-color{
-        background-color: rgba(9, 9, 9, 0.941)!important;
+        background-color: rgba(1, 2, 15, 0.904)!important;
     }
     .appHeader .navbar-dark .navbar-nav .nav-link{
         color:#fff;
@@ -78,7 +82,7 @@
 
     .homeHeading, .video{
         background-image: url('https://images.unsplash.com/37/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-        background-position: center;
+        /* background-position: center; */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100%;
@@ -108,3 +112,71 @@
         background-color: #000;
         font-size: 18px;
     }
+
+
+    /* aboutus css */
+
+    /* owlSlider section  */
+
+   .testimonialSlider button.owl-prev,     .testimonialSlider button.owl-next {
+        position:absolute;
+        top:0%;
+        bottom:auto;
+    }
+    
+   .testimonialSlider button.owl-prev {
+    left: -60px;
+    }
+
+    .testimonialSlider button.owl-next {
+       right: -60px;
+      
+    }
+
+   .testimonialSlider button.owl-prev > i,.testimonialSlider button.owl-next > i{
+        font-size: 45px;
+
+    }
+
+
+    /* services page css  */
+
+    .faq .card{
+        background-color: rgba(0, 0, 0, 0.247);
+        margin-bottom: 10px;
+    }
+
+    .faq .card button.btn-link{
+        color:#fff;
+        text-decoration: none;
+        width:100%;
+
+    }
+
+
+    /* contactus css  */
+
+    
+    /* aboutus css */
+
+    /* owlSlider section  */
+
+   .staff button.owl-prev,     .staff button.owl-next {
+    position:absolute;
+    top:0%;
+    bottom:auto;
+}
+
+.staff button.owl-prev {
+left: -60px;
+}
+
+.staff button.owl-next {
+   right: -60px;
+  
+}
+
+.staff button.owl-prev > i,.staff button.owl-next > i{
+    font-size: 45px;
+
+}
