@@ -5,7 +5,9 @@
 }
 
     /* Header navbar css */
-
+    .navbar-brand img{
+        font-size: 50px;
+    }
     .appHeader .navbar-nav .active>.nav-link, .appHeader .navbar-nav .nav-link.active, .appHeader .navbar-nav .nav-link.show, .appHeader .navbar-nav .show>.nav-link {
         color: orange!important;
     }
@@ -179,4 +181,40 @@ left: -60px;
 .staff button.owl-prev > i,.staff button.owl-next > i{
     font-size: 45px;
 
+}
+
+/* contact css  */
+
+.staff .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.staff button.owl-prev, .staff button.owl-next {
+    position: absolute;
+    top: 30%;
+    bottom: auto;
+}
+
+.staff button.owl-prev {
+    left: -110px;
+}
+
+
+
+/* responsive css */
+
+
+@media all and (max-width:786px){
+        .brandSilder .carousel-caption h3{
+            font-size:2.4rem
+        }
+        .video{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
 }
